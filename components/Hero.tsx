@@ -35,15 +35,18 @@ const Hero = () => {
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
             Hi, I'm Chaitanya Rawat. I turn innovative concepts into interactive, user-friendly web applications.
           </p>
-          <a href="#about">
-            <MagicButton
-              title="Uncover My Creations"
-              icon={<FaLocationArrow />}
-              position='right'
-            />
-          </a>
+          <div className="flex flex-col items-center gap-4">
 
-          <DownloadBtn />
+            <a href="#about">
+              <MagicButton
+                title="Uncover My Creations"
+                icon={<FaLocationArrow />}
+                position='right'
+              />
+            </a>
+
+            <DownloadBtn />
+          </div>
 
         </div>
       </div>
