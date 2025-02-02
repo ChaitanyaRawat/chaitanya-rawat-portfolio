@@ -109,7 +109,7 @@ export const socialMedia = [
   {
     id: 2,
     img: "/contact/linkedin.svg",
-    link: "https://www.linkedin.com/in/chaitanya-rawat-bb8b00279"
+    link: "https://www.linkedin.com/in/cr7tech"
   },
   {
     id: 3,
