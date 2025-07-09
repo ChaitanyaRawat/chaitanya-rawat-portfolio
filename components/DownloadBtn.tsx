@@ -1,18 +1,21 @@
 "use client"
 import React from 'react'
 import MagicButton from './ui/MagicButton'
-import { FaDownload } from 'react-icons/fa'
+import { FaLocationArrow } from 'react-icons/fa6'
 import { download } from '@/utils/cn'
 
 const DownloadBtn = () => {
+    
     return (
-        <div onClick={() => download({ fileUrl: '/Chaitanya_Rawat_Resume.pdf', fileName: 'Chaitanya_Rawat_Resume' })}>
+        
+        <a href= "https://drive.google.com/file/d/1IbdSR7K3Z8D_CD1xX7R4B0DZ06iMwibF" target="_blank">
+            
             <MagicButton
-                title="Download Resume"
-                icon={<FaDownload />}
+                title="View Resume"
+                icon={<FaLocationArrow />}
                 position='right'
             />
-        </div>
+        </a>
     )
 }
 

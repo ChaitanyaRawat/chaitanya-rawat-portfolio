@@ -5,7 +5,7 @@ export const navItems = [
   { name: "Skills", link: "#skills" },
   { name: "Projects", link: "#projects" },
   { name: "Education", link: "#education" },
-  // { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -53,7 +53,7 @@ export const gridItems = [
   },
   {
     id: 5,
-    title: "I'm a Passionate Full Stack Developer",
+    title: "I craft end‑to‑end digital solutions and actionable analytics",
     description: "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 sm:w-40 w-20",
@@ -91,6 +91,15 @@ export const projects = [
     iconLists: ["/skill/next.svg", "/skill/reactjs.svg", "/skill/mongodb.svg", "/skill/typescript.svg", "/tail.svg", "/c.svg"],
     link: "https://careersync-tau.vercel.app",
     github: "https://github.com/ChaitanyaRawat/careersync"
+  },
+  {
+    id: 3,
+    title: "Attrition Report - HR Analytics Dashboard",
+    des: "The interactive Attrition Report helps HR teams explore employee attrition trends across salary bands, age groups, job roles, and more.",
+    img: "/projects/attrition-report.png",
+    iconLists: ["/skill/powerbi.svg", "/skill/python.svg"],
+    link: "https://github.com/ChaitanyaRawat/attrition-hr-analytics",
+    github: "https://github.com/ChaitanyaRawat/attrition-hr-analytics"
   },
 
 ];
@@ -135,31 +144,42 @@ export const skill = [
   },
   {
     id: 3,
-    name: "MongoDB",
-
-    image:
-      "/skill/mongodb.svg",
-  },
-  {
-    id: 4,
     name: "Node.js",
 
     image:
       "/skill/nodejs.svg",
   },
   {
-    id: 5,
-    name: "Typescript",
+    id: 4,
+    name: "MongoDB",
 
     image:
-      "/skill/typescript.svg",
+      "/skill/mongodb.svg",
+  },
+  
+  {
+    id: 5,
+    name: "SQL",
+
+    image:
+      "/skill/sql.svg",
   },
   {
     id: 6,
-    name: "Tailwind CSS",
+    name: "Power BI",
+
     image:
-      "/skill/tailwind.svg",
+      "/skill/powerbi.svg",
   },
+  {
+    id: 7,
+    name: "Python",
+
+    image:
+      "/skill/python.svg",
+  }
+  
+  
 ];
 
 
@@ -174,6 +194,14 @@ export const skillset = [
   },
   {
     id: 2,
+    name: "Data Analysis",
+
+ 
+    image:
+      "/skillset-techstack/data-analysis.avif",
+  },
+  {
+    id: 3,
     name: "Next.js",
 
  
@@ -182,7 +210,7 @@ export const skillset = [
   },
 
   {
-    id: 3,
+    id: 4,
     name: "React.js",
 
  
@@ -190,7 +218,7 @@ export const skillset = [
       "/skillset-techstack/react.jpg",
   },
   {
-    id: 4,
+    id: 5,
     name: "MongoDB",
 
  
@@ -198,23 +226,40 @@ export const skillset = [
       "/skillset-techstack/mongodb.jpg",
   },
   {
-    id: 5,
+    id: 6,
+    name: "SQL",
+
+ 
+    image:
+      "/skillset-techstack/postgresql.jpg",
+  },
+  {
+    id: 7,
+    name: "Microsoft Power BI",
+
+ 
+    image:
+      "/skillset-techstack/powerbi.webp",
+  },
+  {
+    id: 8,
     name: "Typescript and Javascript",
 
  
     image:
       "/skillset-techstack/typescript-javascript.jpg",
   },
+  
   {
-    id: 6,
-    name: "Tailwind CSS",
+    id: 9,
+    name: "Python",
 
  
     image:
-      "/skillset-techstack/tailwind.jpg",
+      "/skillset-techstack/python.jpeg",
   },
   {
-    id: 7,
+    id: 10,
     name: "Java",
 
  
@@ -224,3 +269,16 @@ export const skillset = [
 
 
 ]
+
+export const workExperience = [
+  {
+    id: 1,
+    title: "Academic Trainee Intern",
+    desc: "Completed a 3-month on-site internship at HCLTech, focusing on data analysis, Power BI dashboard development, and collaborative data visualization projects.",
+    className: "md:col-span-2",
+    thumbnail: "/experience/hcltech-logo.png",
+    url: "https://drive.google.com/file/d/1JJ4smwZUxLge0Bc0Fayvnf_-NcnCjRzj"
+  },
+  
+  
+];
