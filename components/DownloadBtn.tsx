@@ -8,7 +8,7 @@ const DownloadBtn = () => {
     
     return (
         
-        <a href= "https://drive.google.com/file/d/1IbdSR7K3Z8D_CD1xX7R4B0DZ06iMwibF" target="_blank">
+        <a href= "https://bit.ly/chaitanya-rawat-resume" target="_blank">
             
             <MagicButton
                 title="View Resume"
