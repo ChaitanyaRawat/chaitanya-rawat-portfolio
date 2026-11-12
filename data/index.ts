@@ -156,7 +156,7 @@ export const skill = [
     image:
       "/skill/mongodb.svg",
   },
-  
+
   {
     id: 5,
     name: "SQL",
@@ -178,8 +178,8 @@ export const skill = [
     image:
       "/skill/python.svg",
   }
-  
-  
+
+
 ];
 
 
@@ -188,84 +188,108 @@ export const skillset = [
     id: 1,
     name: "Full Stack Web Development",
 
- 
+
     image:
       "/skillset-techstack/fullstack.webp",
   },
   {
     id: 2,
+    name: "Backend Development",
+    image:
+      "/skillset-techstack/backend.png",
+  },
+  {
+    id: 3,
+    name: "Automation",
+    image:
+      "/skillset-techstack/automation.png",
+  },
+  {
+    id: 4,
     name: "Data Analysis",
 
- 
+
     image:
       "/skillset-techstack/data-analysis.avif",
   },
   {
-    id: 3,
+    id: 5,
     name: "Next.js",
 
- 
+
     image:
       "/skillset-techstack/nextjs.png",
   },
 
   {
-    id: 4,
+    id: 6,
     name: "React.js",
 
- 
+
     image:
       "/skillset-techstack/react.jpg",
   },
   {
-    id: 5,
+    id: 7,
     name: "MongoDB",
 
- 
+
     image:
       "/skillset-techstack/mongodb.jpg",
   },
   {
-    id: 6,
+    id: 8,
     name: "SQL",
 
- 
+
     image:
       "/skillset-techstack/postgresql.jpg",
   },
   {
-    id: 7,
+    id: 9,
     name: "Microsoft Power BI",
 
- 
+
     image:
       "/skillset-techstack/powerbi.webp",
   },
   {
-    id: 8,
+    id: 10,
     name: "Typescript and Javascript",
 
- 
+
     image:
       "/skillset-techstack/typescript-javascript.jpg",
   },
-  
+
   {
-    id: 9,
+    id: 11,
     name: "Python",
 
- 
+
     image:
       "/skillset-techstack/python.jpeg",
   },
   {
-    id: 10,
+    id: 12,
     name: "Java",
 
- 
+
     image:
       "/skillset-techstack/java.jpg",
   },
+  {
+    id: 13,
+    name: "FastAPI",
+    image:
+      "/skillset-techstack/fastapi.jpg",
+  },
+  {
+    id: 14,
+    name: "Playwright",
+    image:
+      "/skillset-techstack/playwright.png",
+  }
 
 
 ]
@@ -279,6 +303,14 @@ export const workExperience = [
     thumbnail: "/experience/hcltech-logo.png",
     url: "https://drive.google.com/file/d/1JJ4smwZUxLge0Bc0Fayvnf_-NcnCjRzj"
   },
-  
-  
+  {
+    id: 2,
+    title: "Backend Developer Intern",
+    desc: "10 months of experience as a Backend Developer Intern at Hughes Systique Corporation (HSC), contributing to Tata Power's Solar Rooftop NOC platform using FastAPI, Python, PostgreSQL, etc. Also worked on test automation using Playwright and Allure, with GitLab and Jira for collaboration and Agile project management.",
+    className: "md:col-span-2",
+    thumbnail: "/experience/hsc-logo.png",
+    url: "https://drive.google.com/file/d/1LRfAxgIslIact1rzuMTiUlLEwoYnJlan"
+  }
+
+
 ];
