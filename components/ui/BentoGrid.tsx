@@ -5,11 +5,14 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 
 import { useState } from "react";
 import animationData from "@/data/confetti.json"
-import Lottie from "react-lottie";
+import dynamic from "next/dynamic";
 import { IoCopyOutline } from "react-icons/io5";
 import MagicButton from "./MagicButton";
 import { AnimatedTooltip } from "./AnimatedTooltip";
 import { skill } from "@/data";
+
+const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
+
 export const BentoGrid = ({
     className,
     children,
